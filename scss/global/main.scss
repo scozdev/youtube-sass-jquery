@@ -1,0 +1,57 @@
+.Main {
+ 
+    padding-top: 20px;
+    &.open {
+        padding-left: 240px !important;
+    }
+
+    h5 {
+        padding-left: 40px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .Main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Main-item{
+        width: 295px;
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &-header{
+            img {
+                width: 100%;
+            }
+        }
+
+        &-body{
+            height: 100px;
+            display: flex;
+            justify-content: flex-satrt;
+            align-items: center;
+
+
+            .user{
+                height: 40px;
+                width: 40px;
+                margin-right: 20px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 50%;
+
+                }
+            }
+        }
+
+    }
+
+    
+
+
+
+}
